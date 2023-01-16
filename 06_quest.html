@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos  DOM</title>
+    <style>
+        div#area {
+            font:normal 15pt Arial;
+            background: blueviolet;   /* cor da letra */
+            color: rgb(101, 226, 43);   /* mudar cor da letra 8 */
+            width: 200px;    /*largura*/
+            height: 200px;   /*altura */
+            line-height: 200px;  /* para ele ficar no meio da tela*/
+            text-align: center;  /*para o nome ficar no centro*/
+        }
+    </style>
+
+</head>
+<body> 
+    <div id="area" onclick="clicar()"onmouseenter="entrar()" onmouseout="sair()">  
+        Interaja...
+
+    </div>
+
+    <script>
+        var a =window.document.getElementById('area')
+        a.addEventListener('Clik',clicar) /* este click não esta fucionando*/
+        a.addEventListener('mouseenter', entrar)
+        a.addEventListener('mouseout', sair)
+       
+        function clicar() { 
+            a.innerHTML = 'Clicou!' 
+            a.style.background = 'red'
+        }
+        function entrar() {
+            a.innerHTML = 'entroo!'
+            a.style.background = 'green'
+        }
+        function sair() {
+            a.innerHTML = 'sair!'
+            a.style.background = 'blue'
+        }
+
+        /*onclick="clicar()"onmouseenter="entrar()" onmouseout="sair()">  */
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+.fundo_azul{
+    background-color: dodgerblue;
+}
+
+.fundo_vermelho{
+    background-color: hsl(0, 97%, 53%);
+}
+
+.fundo_cinza{
+    background-color: #808080;
+}
+.fundo_imagem{
+    background-image:url(" ");
+}

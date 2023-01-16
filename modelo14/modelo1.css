@@ -1,0 +1,46 @@
+body {
+    background: rgb(102, 108, 160);
+    font: normal 15pt Arial;
+
+}
+
+header {
+    color: wheat;
+    text-align: center;
+}
+
+section {
+    background: burlywood;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;  /*lurgura*/
+    margin: auto;
+    box-shadow: 3px 3px 10px rgb(116, 96, 67);
+
+}
+
+footer {
+    color: rgb(99, 10, 10);
+    text-align: center;
+    font-style: inherit;
+
+}
+
+#imagem {
+    height: 300px; /*largura*/
+    border-radius: 200px; /* bordas redodas laterais*/
+    width: 300px; /*altura*/
+    text-align: center;
+}
+
+#foto {
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+
+
+
